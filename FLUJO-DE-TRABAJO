@@ -1,0 +1,117 @@
+# Base de Datos — Distribuidora de Gaseosas del Valle S.A.
+
+## Descripción del proyecto
+
+Este proyecto tiene como finalidad desarrollar una **base de datos relacional para la gestión de la información de la Distribuidora de Gaseosas del Valle S.A.**
+
+El desarrollo se realizará mediante un flujo de trabajo organizado por etapas. Cada etapa tendrá una función específica dentro de la construcción de la solución, comenzando desde el análisis y diseño de la información, hasta la implementación, consulta, automatización, seguridad y validación de la base de datos.
+
+La organización del proyecto permite mantener separados los diferentes componentes y facilita tanto su desarrollo como su revisión y mantenimiento.
+
+---
+
+## Objetivo
+
+Diseñar e implementar una base de datos que permita representar de manera estructurada la información y los procesos relacionados con la operación de la distribuidora.
+
+El proyecto busca construir una solución que permita:
+
+- Organizar correctamente la información.
+- Establecer relaciones entre los diferentes datos.
+- Garantizar la integridad y consistencia de la información.
+- Realizar consultas sobre los datos almacenados.
+- Automatizar determinadas operaciones.
+- Facilitar el acceso a información mediante vistas.
+- Controlar el acceso mediante permisos y privilegios.
+- Comprobar el funcionamiento de la solución mediante pruebas y evidencias.
+
+---
+
+# Flujo de trabajo
+
+El desarrollo del proyecto seguirá el siguiente proceso:
+
+```text
+Análisis y diseño
+       ↓
+Diagrama UML
+       ↓
+Normalización
+       ↓
+DDL — Creación de la estructura
+       ↓
+DML — Carga de datos
+       ↓
+DQL — Consultas
+       ↓
+Funciones
+       ↓
+Triggers
+       ↓
+Vistas
+       ↓
+Seguridad y permisos
+       ↓
+Pruebas y evidencias
+```
+
+## Estructura propuesta para el desarrollo del proyecto.
+
+```
+distribuidora-de-gaseosa/
+│
+├── soluciones/
+│   └── lester-garcia/
+│       │
+│       ├── ddl/
+│       │   └── script-ddl.sql
+│       │
+│       ├── diagrama UML/
+│       │   └── diagrama.md
+│       │
+│       ├── dml/
+│       │   └── script-dml.sql
+│       │
+│       ├── dql/
+│       │   └── script-dql.sql
+│       │
+│       ├── evidencia/
+│       │   └── resultado.md
+│       │
+│       ├── funciones/
+│       │   └── script-funciones.sql
+│       │
+│       ├── normalizacion/
+│       │   └── tablas-normalizadas.md
+│       │
+│       ├── seguridad-permisos/
+│       │   └── privilegios.sql
+│       │
+│       ├── triggers/
+│       │   └── triggers.sql
+│       │
+│       └── vistas/
+│           └── vistas.sql
+│
+├── FLUJO-DE-TRABAJO
+│  
+└── README.md
+
+
+```
+## Manejo de versiones con git
+
+### Hay dos ramas principales las cuales son:
+
+- **main**: Esta rama viene por defecto, por lo que se considera como la rama de produccion y aqui no se 
+va a trabajar nada. Hasta que todoe el trabjo este listo para ponerlo en produccion.
+
+- **dev**:Desde esta rama *dev* partiran las ramas donde se trabajara cada parte del proyecto,
+todas ellas tendran un merge en ella.
+
+- **Las Ramas feat/..**:Estas seran llamadas de acuerdo al trabajo que en ellas se realizara; que por consiguiente seran cada uno de los requerimientos que en el proceso de desarrollo del proyecto de realizara.
+
+### Nota:
+
+**Este documento se realizo con el objetivo de comprender de manera general el flujo de trabjo que se llevara acabo durante el proceso de desarollo del proyecto.**
+
