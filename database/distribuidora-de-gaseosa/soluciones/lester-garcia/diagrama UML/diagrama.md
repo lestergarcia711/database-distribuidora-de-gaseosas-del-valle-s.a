@@ -5,5 +5,5 @@
 
 **UML significa Lenguaje Unificado de Modelado (Unified Modeling Language). Este diagrama ayuda a entender el trabajo en cómo se construirá una aplicación antes de escribir código.**
 
-![DIAGRAMA-databe-UML](evidencia./diagrama_uml.png)
+![DIAGRAMA-databe-UML](evidencia-uml/diagrama_uml.png)
 
